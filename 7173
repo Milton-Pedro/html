@@ -1,0 +1,73 @@
+<doctype html>
+	<html lang="pt-br">
+		<head>
+			<meta charset="utf-8">
+				<link rel="stylesheet" href="index.css">
+					<link rel="short icon" href="fat.png" type="image/x-icon">
+					<title>Site do colégio Fat Gonga & Filhos </title>
+					
+			</head>
+			<!--meu corpo-->
+			<body class="interface">
+				<!--meu cabeçalho-->
+			<header class="cabecalho">
+				<ul>
+		<li id="um"><a href="#">MENU INICIAL</a></li>
+<li mouseover="mudafotodois()" mouseout="voltafotoum()"><a href="sobre.HTML" rel="next" id="sobre">SOBRE</a></li>
+<li mouseover="mudafotoum()" mouseout="voltafotodois()"><a href="fala.HTML">CADASTRO</a></li>
+       <h2>Colégio Fat Gonga</h2>
+              </ul>
+       <img id="fatgonga"src="fat.png" alt="fat-gong
+a"/>
+ </header>
+		<nav id="slogan">
+			<p>incentivar o interesse pelo ensino!</p>
+</nav>
+			<nav id="foto">
+				<img src="estudantenegra.png" alt="fotomoça" id="fotomoca">
+</nav>
+
+<section id="tela">
+				<p> 
+ Seja bem vindo ao site<mark> "Fat Gonga e Filhos".</mark> Esta escola tem como objectivo, formar estudantes de qualidade para um futuro melhor da nossa pátria. O nosso lema é <mark>"incentivar o interesse pelo ensino!"</mark>
+</p>
+<p>Navega o site, caso de interesse, fale conosco, obrigado(a)!</p>
+	 
+                      </section>
+                      <section id="fotofat">
+                          
+                         
+                          </section>
+                      <footer id="rodape">
+                          <a href="#" target="_blank"><img src="facebook.png" alt="facebook"/></a>
+                          <a href="#" target="_blank"><img src="whatsap.png" alt="whatsap"/></a>
+                             <a href="#" target="_blank"><img src="youtube.png" alt="youtube"/></a>
+                                    <p><a href="Milton Pedro" target="_blank">Site feito por Milton Pedro</a></p><h1>👆</h1>
+               </footer>
+              
+                              <script>
+                        window.alert("Seja bem vindo ao site Fat Gonga e Filho");
+					function mudafotoum(){
+						window.document.get.elementbyid('fatgonga').src="cadastro.png";
+						window.document.get.elementbyid('fotomilton').src="miltononesimo.jpg";
+						}
+						function voltafotoum(){
+						window.document.get.elementbyid('fatgonga').src="fat.png";
+						window.document.get.element.by.id('fotomilton').src="mil.jpg";
+						}
+
+                   function mudafotodois(){
+						window.document.get.elementbyid('fatgonga').src="estudo2.png";
+						window.document.get.element.by.id('fatomilton').src="miltoncarro.jpg";
+						}
+						function voltafotodois(){
+						window.document.get.elementbyid('fatgonga').src="fat.png";
+						window.document.get.elementbyid('fotomilton').src="mil.jpg";
+						}
+						
+					</script>              
+               
+                    </body>
+                                   <!-- fecha meu corpo-->
+                                            
+				</html>
